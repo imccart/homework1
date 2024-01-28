@@ -4,6 +4,7 @@
 
 for (y in 2007:2015) {
   ## Basic contract/plan information
+  y <- 2008
   ma.path=paste0("data/input/monthly-ma-and-pdp-enrollment-by-cpsc/CPSC_Contract_Info_",y,"_01.csv")
   contract.info=read_csv(ma.path,
                          skip=1,
