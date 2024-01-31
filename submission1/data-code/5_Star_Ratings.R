@@ -1,7 +1,7 @@
 ##############################################################################
 ## Read in MA star rating data 
 ##############################################################################
-source("data-code/rating_variables.R")
+source("submission1/data-code/rating_variables.R")
 
 ## Assign yearly datasets and clean star rating information
 
