@@ -31,7 +31,8 @@ load("Hwk1_workspace.Rdata")
 ```
 
 
-My answers to the homework questions are described below. Note that I do the analysis for these answers in a separate `R` script. You can read in the full data as part of your markdown file, but that takes some time to compile to pdf. So I run the analysis separately, save the workspace with only the summary stats, figures, and tables that I need, and then load the workspace in the final qmd. My analysis file is available in the analysis folder. Enjoy!
+My answers to the homework questions are described below. Note that I do the analysis for these answers in a separate `R` script. You can read in the full data as part of your markdown file, but that takes some time to compile to pdf. So I run the analysis separately, save the workspace with only the summary stats, figures, and tables that I need, and then load the workspace in the final qmd. My analysis file is available in the analysis folder. The GitHub repository for this work is available [here](https://github.com/imccart/homework1.git). Enjoy!
+
 
 \newpage
 # Building the Data
@@ -58,7 +59,7 @@ knitr::kable(plan.type.year1,
 \newpage
 \noindent 2. Remove all special needs plans (SNP), employer group plans (eghp), and all "800-series" plans. Provide an updated table after making these exclusions.
 
-I remove the relevant plans just by applying the relevant filter to the full ma data and then creating the table of plan types. Counts of different plan types with these exclusions are presented in @tbl-plans2
+I remove the relevant plans just by applying the relevant filter to the full ma data and then creating the table of plan types. Counts of different plan types with these exclusions are presented in @tbl-plans2.
 
 ```{r}
 #| echo: false
